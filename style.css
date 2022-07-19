@@ -1,15 +1,31 @@
-body {background-color:black; font-family:arial;color:white}
+body {
+    background-color:black;
+    font-family:arial;color:white;
+    background-image: url("calculator image.jpg");
+    background-size: cover;
+}
 h1{color:grey;font-family:verdana}
 .maindiv {
     background-color: white;
     color: black;
-    width: 300px;
-    padding: 20px;
-    border-radius: 25px;
-    align-content:center
+    width: 500px;
+    padding: 100px 100px 100px;
+    border-radius: 50px;
+    margin: 100px 750px;
+    align-content:center;
+    font-size: 25px;
 }
 
 .highlight
 {
     background-color: yellow;
 }
+
+button {
+    font-size: 25px;
+}
+
+input {
+    width: 200px;
+}
+    
